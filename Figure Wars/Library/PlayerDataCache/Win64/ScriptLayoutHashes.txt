@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Usuario/Desktop/FigureWars/Figure Wars.exe
+C:/Users/Usuario/Desktop/Nueva carpeta/Figure Wars.exe
 SceneListBegin?
 Assets/FigureWars.unity
 SceneListEnd?
@@ -124,7 +124,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
-79fce50bc5a598921b6a1ff42d463d98 Assembly-CSharp.dll:.Armor
+0b6e469156ce46d2c258d127577d5c8f Assembly-CSharp.dll:.Armor
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 ed448bc4d327b73997e8c10f926f1868 Assembly-CSharp.dll:.Store
@@ -169,8 +169,8 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-79fce50bc5a598921b6a1ff42d463d98 Assembly-CSharp.dll:.Hair
+0b6e469156ce46d2c258d127577d5c8f Assembly-CSharp.dll:.Hair
 fc7096975998bcaf8e70dfc56390b558 Assembly-CSharp.dll:.UImanager
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-79fce50bc5a598921b6a1ff42d463d98 Assembly-CSharp.dll:.Weapon
+0b6e469156ce46d2c258d127577d5c8f Assembly-CSharp.dll:.Weapon
 165d62c0d7eef0618c26587ede4cfd9c Assembly-CSharp.dll:.Inventory

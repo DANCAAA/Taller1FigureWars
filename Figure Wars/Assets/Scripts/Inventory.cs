@@ -7,7 +7,8 @@ public class Inventory : MonoBehaviour
     public List<NonConsumable> items;
 	public List<Consumable> powerUps;
     [SerializeField]
-	private NonConsumable[] equipables = new NonConsumable[3];
+    private List<NonConsumable> equipables = new List<NonConsumable>();
+    private int[] posicionesEquipables = new int[] {0,0,0};
 	public int oro = 1000;
     [SerializeField]
     private UImanager ui;
@@ -22,6 +23,10 @@ public class Inventory : MonoBehaviour
 		powerUps.Add(atack);
 		powerUps.Add(def);
 		Debug.Log ("listo");
+
+        equipables.Add(null);
+        equipables.Add(null);
+        equipables.Add(null);
 	}
 
 	public void Consume(int index)
@@ -77,14 +82,15 @@ public class Inventory : MonoBehaviour
     public void Equip(int index)
     {
         if (!items[index].equiped) { 
-            for (int i = 0; i < equipables.Length; i++)
+            for (int i = 0; i < 3; i++)
             {
 
-                if (equipables[i] == null)
+                if (posicionesEquipables[i] == 0 && !items[index].equiped)
                 {
                     equipables[i] = items[index];
                     items[index].equiped = true;
                     ui.Equipar(i, index);
+                    posicionesEquipables[i] = 1;
                     break;
                 }
 
@@ -100,15 +106,22 @@ public class Inventory : MonoBehaviour
 
     public void UnEquip( int index)
     {
+        int itm = equipables[index].index;
         equipables[index] = null;
+        posicionesEquipables[index] = 0;
         for (int i = 0; i < items.Count; i++)
-            /*if (equipables[index].index == items[i].index)
+        {
+            if(itm == items[i].index)
             {
                 items[i].equiped = false;
-            }*/
-        
+                break;
+            }
+        }
         ui.Desequipar(index);
     }
+        
+        
+    
 
 	public void Discard(int index, int cantidad)
     {

@@ -206,6 +206,14 @@ public class UImanager : MonoBehaviour {
         cantidadPowerDef.text = inventario.powerUps[2].cantidad.ToString();
         cantidadPowerVelocidad.text = inventario.powerUps[0].cantidad.ToString();
         StartCoroutine(Desactivar(consumido, 0.5f));
+
+        velDescartar = 0;
+        descartablesSpeed.text = velDescartar.ToString();
+        atkDescartar = 0;
+        descartablesAtk.text = atkDescartar.ToString();
+        defDescartar = 0;
+        descartablesDef.text = atkDescartar.ToString();
+
     }
 
     public void SinConsumible()

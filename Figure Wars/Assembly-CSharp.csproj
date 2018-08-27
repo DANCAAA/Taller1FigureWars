@@ -63,11 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Armor.cs" />
     <Compile Include="Assets\Scripts\Consumable.cs" />
-    <Compile Include="Assets\Scripts\Currency.cs" />
     <Compile Include="Assets\Scripts\Hair.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
-    <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\Scripts\NonConsumable.cs" />
     <Compile Include="Assets\Scripts\PowerAtk.cs" />
     <Compile Include="Assets\Scripts\PowerDef.cs" />
@@ -76,16 +74,16 @@
     <Compile Include="Assets\Scripts\UImanager.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Proyectos Unity/Figure Wars/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Git/Taller1FigureWars/Figure Wars/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Proyectos Unity/Figure Wars/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Git/Taller1FigureWars/Figure Wars/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Proyectos Unity/Figure Wars/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Git/Taller1FigureWars/Figure Wars/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Proyectos Unity/Figure Wars/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Git/Taller1FigureWars/Figure Wars/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -265,7 +263,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>D:/Proyectos Unity/Figure Wars/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>D:/Git/Taller1FigureWars/Figure Wars/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
