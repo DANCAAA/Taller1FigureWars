@@ -1,6 +1,12 @@
 # Taller1FigureWars
 
-Referencias assets
+Miembros del equipo:
+
+Juan Diego Mozo Osorio
+Felipe Bedoya Hincapia
+Jose Daniel Castillo Cano
+
+Referencias assets: todos los assets son orginales
 
 Link a carpeta del ejecutable https://drive.google.com/drive/folders/11dfLlsvaDo5N8ZXVuwyRJYsvMKZ6ijLr?usp=sharing
 
