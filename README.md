@@ -2,9 +2,9 @@
 
 Miembros del equipo:
 
-Juan Diego Mozo Osorio
-Felipe Bedoya Hincapia
-Jose Daniel Castillo Cano
+Juan Diego Mozo Osorio ,
+Felipe Bedoya Hincapia ,
+Jose Daniel Castillo Cano ,
 
 Referencias assets: todos los assets son orginales
 
