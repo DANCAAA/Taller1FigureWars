@@ -3,7 +3,7 @@
 Miembros del equipo:
 
 Juan Diego Mozo Osorio ,
-Felipe Bedoya Hincapia ,
+Felipe Bedoya Hincapie ,
 Jose Daniel Castillo Cano ,
 
 Referencias assets: todos los assets son orginales
