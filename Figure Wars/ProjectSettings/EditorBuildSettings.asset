@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/FigureWars.unity
+    path: Assets/Scenes/Lobby.unity
     guid: 46cd4c37d908b714390b1acb9138e8ba
+  - enabled: 1
+    path: Assets/Scenes/Nivel.unity
+    guid: 44135a960322b4d4fa9550a26a2a579c
   m_configObjects: {}
